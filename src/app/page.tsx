@@ -15,50 +15,58 @@ export default function Home() {
         
         {/* Projects Section */}
         <div className="mt-10">
-          <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Projects</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Engineering Experience Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
-          <Link href="/2022robot" className="block">
-              <Card>
+          <Link href="/projects/2022robot" className="block">
+              <Card className="hover:shadow-lg hover:bg-gray-300">
                 <CardContent className="p-4">
                   <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2022 Robot</h3>
                   <p className="text-gray-700 dark:text-gray-300 mt-2">
-                    Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
+                    Led the design of FRC Team 2168's robot for the 2022 challenge Rapid React, including personal design of the drivetrain and the turreted shooter.
                   </p>
                 </CardContent>
               </Card>
             </Link>
-            <Card>
-              <CardContent className="p-4">
-                <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2021 Robot</h3>
-                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                  Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent className="p-4">
-                <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2020 Robot</h3>
-                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                  Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent className="p-4">
-                <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2019 Robot</h3>
-                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                  Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent className="p-4">
-                <h3 className="text-xl font-medium text-gray-900 dark:text-white">Autonomous Vehicle Prototype</h3>
-                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                  Developed an autonomous navigation system using ROS and embedded programming.
-                </p>
-              </CardContent>
-            </Card>
+            <Link href="/projects/2021game-design" className="block">
+              <Card className="hover:shadow-lg hover:bg-gray-300">
+                <CardContent className="p-4">
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2021 Game Design Challenge</h3>
+                  <p className="text-gray-700 dark:text-gray-300 mt-2">
+                    Led the design of FRC Team 2168's submission for the FIRST 2021 Game Design Challenge.
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/projects/2020robot" className="block">
+              <Card className="hover:shadow-lg hover:bg-gray-300">
+                <CardContent className="p-4">
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2020/2021 Robot</h3>
+                  <p className="text-gray-700 dark:text-gray-300 mt-2">
+                    Led the design of FRC Team 2168's robot for the 2020/2021 FRC challenge Infinite Recharge, including personal design of the ball-shooting mechanism and traversing climber.
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/projects/7th-cadathon" className="block">
+              <Card className="hover:shadow-lg hover:bg-gray-300">
+                <CardContent className="p-4">
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">7th Bi-Annual F4 Cadathon</h3>
+                  <p className="text-gray-700 dark:text-gray-300 mt-2">
+                    Entered into a 3 day challenge to fully design an FRC-style robot for a mock game with 2 other people.
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/projects/2019robot" className="block">
+              <Card className="hover:shadow-lg hover:bg-gray-300">
+                <CardContent className="p-4">
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2019 Robot</h3>
+                  <p className="text-gray-700 dark:text-gray-300 mt-2">
+                    Designed a functional mechanism for a robot to compete in the FRC challenge Deep Space.
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
           </div>
         </div>
 
