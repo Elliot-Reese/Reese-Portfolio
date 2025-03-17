@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Card, CardContent } from "@/app/ui/card";
 import { Button } from "@/app/ui/button";
 import { Github, Linkedin } from "lucide-react";
@@ -16,9 +17,35 @@ export default function Home() {
         <div className="mt-10">
           <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+          <Link href="/2022robot" className="block">
+              <Card>
+                <CardContent className="p-4">
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2022 Robot</h3>
+                  <p className="text-gray-700 dark:text-gray-300 mt-2">
+                    Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
             <Card>
               <CardContent className="p-4">
-                <h3 className="text-xl font-medium text-gray-900 dark:text-white">CAD-Designed Robotic Arm</h3>
+                <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2021 Robot</h3>
+                <p className="text-gray-700 dark:text-gray-300 mt-2">
+                  Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-4">
+                <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2020 Robot</h3>
+                <p className="text-gray-700 dark:text-gray-300 mt-2">
+                  Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-4">
+                <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2019 Robot</h3>
                 <p className="text-gray-700 dark:text-gray-300 mt-2">
                   Designed a 5DOF robotic arm using SolidWorks, optimized for additive manufacturing.
                 </p>
@@ -39,7 +66,7 @@ export default function Home() {
         <div className="mt-10">
           <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Skills & Tools</h2>
           <p className="text-gray-700 dark:text-gray-300 mt-2">
-            SolidWorks, Fusion 360, Python, MATLAB, 3D Printing, FEA, Rapid Prototyping
+            Mechanical Engineering, SolidWorks, Creo PTC, Python, MATLAB, 3D Printing, FEA, Rapid Prototyping
           </p>
         </div>
 
