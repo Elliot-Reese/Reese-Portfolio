@@ -51,12 +51,16 @@ export default function Home() {
             </div>
           </div>
           {/* Right column - Biography */}
-          <div className="flex items-center">
+          <div className="flex flex-col items-start space-y-4">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">About Me</h2>
             <p className="text-lg text-gray-700 dark:text-gray-300">
               I am a robotics engineering student focused on product development and customized solutions.
               With experience in FRC robotics and various engineering projects, I specialize in
               creating innovative mechanical solutions and bringing ideas from concept to reality
               through rapid prototyping and iterative design. 
+            </p>
+            <p className="text-lg text-gray-700 dark:text-gray-300">
+              I am currently looking for robotics or mechanical engineering internship positions for the summer of 2025.
             </p>
           </div>
         </div>
@@ -109,9 +113,18 @@ export default function Home() {
               <Link href="/projects/2019robot" className="block">
                 <Card className="hover:shadow-lg hover:bg-gray-300">
                   <CardContent className="p-4">
-                    <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2019 Robot</h3>
+                    <h3 className="text-xl font-medium text-gray-900 dark:text-white mb-2">FRC 2019 Robot</h3>
+                    <div className="flex items-center justify-center">
+                      <Image
+                        src="/images/2019-robot.jpg"
+                        alt="2019 Full Robot"
+                        width={300}
+                        height={225}
+                        className="rounded-lg shadow-lg"
+                      />
+                    </div>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
-                      Designed a functional mechanism for a robot to compete in the FRC challenge Deep Space.
+                      Designed an adaptable intake mechanism.
                     </p>
                   </CardContent>
                 </Card>
@@ -121,10 +134,32 @@ export default function Home() {
 
           {/* Skills Section */}
           <div id="skills" className="mt-10">
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Skills & Tools</h2>
-            <p className="text-gray-700 dark:text-gray-300 mt-2">
-              Mechanical Engineering, SolidWorks, Creo PTC, Python, MATLAB, 3D Printing, FEA, Rapid Prototyping
-            </p>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Skills & Tools</h2>
+            <div className="mx-auto w-4/5 md:w-2/5">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Languages and Software */}
+                <div className="text-left">
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white mb-4">Technical Package</h3>
+                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
+                    <li>SolidWorks</li>
+                    <li>Creo PTC</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                  </ul>
+                </div>
+                {/* Engineering Skills */}
+                <div className="text-left">
+                  <h3 className="text-xl font-medium text-gray-900 dark:text-white mb-4">Engineering Skills</h3>
+                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
+                    <li>Mechanical Engineering</li>
+                    <li>3D Printing</li>
+                    <li>FEA</li>
+                    <li>Rapid Prototyping</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Contact Section */}
@@ -138,7 +173,18 @@ export default function Home() {
                 <Github size={20} /> GitHub
               </Button>
             </div>
+            <h3 className="text-lg text-gray-700 dark:text-gray-300 mt-4">
+              Send me an email at{" "}
+              <a 
+                href="mailto:elliot.g.reese@gmail.com"
+                className="text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                elliot.g.reese@gmail.com
+              </a>
+            </h3>
           </div>
+          <br></br>
+          
         </div>
       </div>
     </div>
