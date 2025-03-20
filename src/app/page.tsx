@@ -60,7 +60,7 @@ export default function Home() {
               through rapid prototyping and iterative design. 
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I am currently looking for robotics or mechanical engineering internship positions for the summer of 2025.
+              I am currently looking for robotics and mechanical engineering internship positions for the summer of 2025.
             </p>
           </div>
         </div>
@@ -70,6 +70,16 @@ export default function Home() {
           <div id="projects" className="mt-10">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Engineering Experience Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+            <Link href="/projects/abb-internship" className="block">
+                <Card className="hover:shadow-lg hover:bg-gray-300">
+                  <CardContent className="p-4">
+                    <h3 className="text-xl font-medium text-gray-900 dark:text-white">ABB Inc. R&D Internship</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mt-2">
+                      Joined a team developing a new industrial circuit breaker. Spearheaded the brainstorming, design, and downselection process for a new padlocking method for the breaker (patent pending).
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
               <Link href="/projects/2022robot" className="block">
                 <Card className="hover:shadow-lg hover:bg-gray-300">
                   <CardContent className="p-4">

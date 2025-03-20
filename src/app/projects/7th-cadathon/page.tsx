@@ -14,9 +14,12 @@ export default function Home() {
               className="rounded-lg shadow-lg"
             />
          </div>
-        <p className="text-lg text-gray-700 dark:text-gray-300 mt-2">
-          This was my first CAD challenge. Along with two other members of my team, I started work on a 
-        </p>
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+          <p className="text-lg text-gray-700 dark:text-gray-300 mt-2">
+            This was my first CAD challenge. The format was a 3 day challenge where
+          </p>
+         </div>
+        
         
       </div>
     </div>
