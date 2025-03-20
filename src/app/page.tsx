@@ -134,17 +134,8 @@ export default function Home() {
                 <Card className="hover:shadow-lg hover:bg-gray-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white mb-2">FRC 2019 Robot</h3>
-                    <div className="flex items-center justify-center">
-                      <Image
-                        src="/images/2019-robot.jpg"
-                        alt="2019 Full Robot"
-                        width={300}
-                        height={225}
-                        className="rounded-lg shadow-lg"
-                      />
-                    </div>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
-                      Designed an adaptable intake mechanism.
+                      Joined the design program of my high school's FRC robotics team. Learned SolidWorks and designed an adaptable intake mechanism.
                     </p>
                   </CardContent>
                 </Card>
