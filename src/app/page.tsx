@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Card, CardContent } from "@/app/ui/card";
 import { Button } from "@/app/ui/button";
 import { Github, Linkedin } from "lucide-react";
+import { ContactButtons } from "@/app/components/ContactButtons";
+
 
 export default function Home() {  
   return (
@@ -175,15 +177,8 @@ export default function Home() {
 
           {/* Contact Section */}
           <div id= "contact" className="mt-10">
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Get in Touch</h2>
-            <div className="flex justify-center gap-4 mt-4">
-              <Button variant="outline" className="flex items-center gap-2">
-                <Linkedin size={20} /> LinkedIn
-              </Button>
-              <Button variant="outline" className="flex items-center gap-2">
-                <Github size={20} /> GitHub
-              </Button>
-            </div>
+          <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Get in Touch</h2>
+          <ContactButtons />
             <h3 className="text-lg text-gray-700 dark:text-gray-300 mt-4">
               Send me an email at{" "}
               <a 
