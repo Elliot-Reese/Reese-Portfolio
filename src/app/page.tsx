@@ -80,6 +80,16 @@ export default function Home() {
                   </CardContent>
                 </Card>
               </Link>
+              <Link href="/projects/eb-internship" className="block">
+                <Card className="hover:shadow-lg hover:bg-gray-300">
+                  <CardContent className="p-4">
+                    <h3 className="text-xl font-medium text-gray-900 dark:text-white">General Dynamics Electric Boat Internship</h3>
+                    <p className="text-gray-700 dark:text-gray-300 mt-2">
+                      Joined a team tasked with implementing industrial welding robots in production. Worked to test different models and write training materials for end users.
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
               <Link href="/projects/2022robot" className="block">
                 <Card className="hover:shadow-lg hover:bg-gray-300">
                   <CardContent className="p-4">
