@@ -38,7 +38,9 @@ export default function Home() {
          </div>
          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
           <p className="text-lg text-gray-700 dark:text-gray-300 mt-2">
-            This was my first CAD challenge. The format was a 3 day challenge where
+            This was my first CAD challenge. The format was a 3 day challenge where teams were given a mock FRC game, 
+            then did their best to design the most competetive robot they could. Our completed robot was judged 17th out of almost 100, 
+            but the real value for me personally was learning to work under extreme time pressure and to work efficiently.
           </p>
          </div>
         
