@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/app/ui/card";
 import { Button } from "@/app/ui/button";
 import { Github, Linkedin } from "lucide-react";
 import { ContactButtons } from "@/app/components/ContactButtons";
+import { Analytics } from "@vercel/analytics/react"
 
 
 export default function Home() {  
@@ -190,6 +191,7 @@ export default function Home() {
             </h3>
           </div>
           <br></br>
+          <Analytics />
           
         </div>
       </div>
