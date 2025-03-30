@@ -16,16 +16,16 @@ export default function Home() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-left items-center h-16 space-x-8">
             <p className="text-2xl font-bold text-gray-900 dark:text-white">Elliot Reese</p>
-            <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+            <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white">
               About
             </a>
-            <a href="#projects" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+            <a href="#projects" className="text-gray-700 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white">
               Projects
             </a>
-            <a href="#skills" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+            <a href="#skills" className="text-gray-700 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white">
               Skills
             </a>
-            <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+            <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white">
               Contact
             </a>
           </div>
@@ -74,7 +74,7 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Engineering Experience Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
             <Link href="/projects/abb-internship" className="block">
-                <Card className="hover:shadow-lg hover:bg-gray-300">
+                <Card className="hover:shadow-lg hover:bg-stone-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">ABB Inc. R&D Internship</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
@@ -84,7 +84,7 @@ export default function Home() {
                 </Card>
               </Link>
               <Link href="/projects/eb-internship" className="block">
-                <Card className="hover:shadow-lg hover:bg-gray-300">
+                <Card className="hover:shadow-lg hover:bg-stone-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">General Dynamics Electric Boat Internship</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
@@ -94,7 +94,7 @@ export default function Home() {
                 </Card>
               </Link>
               <Link href="/projects/2022robot" className="block">
-                <Card className="hover:shadow-lg hover:bg-gray-300">
+                <Card className="hover:shadow-lg hover:bg-stone-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2022 Robot</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
@@ -104,17 +104,17 @@ export default function Home() {
                 </Card>
               </Link>
               <Link href="/projects/2021game-design" className="block">
-                <Card className="hover:shadow-lg hover:bg-gray-300">
+                <Card className="hover:shadow-lg hover:bg-stone-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2021 Game Design Challenge</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
-                      Led the design of FRC Team 2168's submission for the FIRST 2021 Game Design Challenge.
+                      Led the design of FRC Team 2168's submission for the FIRST 2021 Game Design Challenge. Our submission was one of three global winners. 
                     </p>
                   </CardContent>
                 </Card>
               </Link>
               <Link href="/projects/2020robot" className="block">
-                <Card className="hover:shadow-lg hover:bg-gray-300">
+                <Card className="hover:shadow-lg hover:bg-stone-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">FRC 2020/2021 Robot</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
@@ -124,7 +124,7 @@ export default function Home() {
                 </Card>
               </Link>
               <Link href="/projects/7th-cadathon" className="block">
-                <Card className="hover:shadow-lg hover:bg-gray-300">
+                <Card className="hover:shadow-lg hover:bg-stone-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">7th Bi-Annual F4 Cadathon</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
@@ -134,7 +134,7 @@ export default function Home() {
                 </Card>
               </Link>
               <Link href="/projects/2019robot" className="block">
-                <Card className="hover:shadow-lg hover:bg-gray-300">
+                <Card className="hover:shadow-lg hover:bg-stone-300">
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white mb-2">FRC 2019 Robot</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
@@ -168,7 +168,7 @@ export default function Home() {
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
                     <li>Mechanical Engineering</li>
                     <li>3D Printing</li>
-                    <li>FEA</li>
+                    <li>Product Design</li>
                     <li>Rapid Prototyping</li>
                   </ul>
                 </div>
