@@ -72,6 +72,11 @@ export default function Home() {
           {/* Projects Section */}
           <div id="projects" className="mt-10">
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">Engineering Experience Projects</h2>
+            {/* <p className="text-m text-gray-700 dark:text-gray-300 mt-2">
+              Here are some projects showcasing my skills and breadth of knowledge. </p> */}
+              <p className="text-sm text-gray-700 dark:text-gray-300 mt-1">
+                (Click for more details)
+              </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
             <Link href="/projects/abb-internship" className="block">
                 <Card className="hover:shadow-lg hover:bg-stone-300">
