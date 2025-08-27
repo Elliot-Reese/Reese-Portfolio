@@ -6,15 +6,17 @@ import { Button } from "@/app/ui/button";
 import { Github, Linkedin } from "lucide-react";
 import { ContactButtons } from "@/app/components/ContactButtons";
 import { Analytics } from "@vercel/analytics/react"
+import { Navbar } from "./components/Navbar";
 
 
 export default function Home() {  
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 px-40 sm:px-20 lg:px-40">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 px-40 sm:px-8 md:px-20 lg:px-40">
       {/* Navigation Header */}
-      <header className="sticky top-0 z-50 bg-stone-400/80 dark:bg-stone-800/80 backdrop-blur-sm shadow-md mb-2">
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-left items-center h-16 space-x-8">
+      <Navbar />
+      {/* <header className="sticky top-0 z-50 bg-stone-400/80 dark:bg-stone-800/80 backdrop-blur-sm shadow-md mb-2">
+        <nav className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+          <div className="flex flex-wrap justify-left items-center h-16 space-x-8">
             <p className="text-2xl font-bold text-gray-900 dark:text-white">Elliot Reese</p>
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-gray-950 dark:hover:text-white">
               About
@@ -30,11 +32,11 @@ export default function Home() {
             </a>
           </div>
         </nav>
-      </header>
+      </header> */}
 
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div id= "about" className="grid md:grid-cols-2 gap-8 bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md p-8">
+        <div id= "about" className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md p-8">
           {/* Left column - Profile Picture and Titles */}
           <div className="flex flex-col justify-center items-center md:items-start space-y-4">
             <div className="relative w-48 h-48 rounded-full overflow-hidden">
