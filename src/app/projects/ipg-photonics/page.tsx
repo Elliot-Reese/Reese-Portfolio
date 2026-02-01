@@ -8,13 +8,13 @@ export default function Home() {
 
 
       <div className="max-w-4xl mx-auto text-center mt-4">
-        <h1 className="text-5xl font-bold text-gray-900 dark:text-white">IPG Photonics</h1>
+        {/* <h1 className="text-5xl font-bold text-gray-900 dark:text-white">IPG Photonics</h1> */}
         <div className="flex items-center justify-center mt-2 mb-2">
           <Image
             src="/images/IPG.png"
             alt="IPG Logo"
-            width={250}
-            height={175}
+            width={500}
+            height={225}
             className="rounded-lg shadow-lg"
           />
         </div>

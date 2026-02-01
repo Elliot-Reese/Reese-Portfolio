@@ -16,15 +16,15 @@ export default function Home() {
               focusing on strong principles of design and procedures within Solidworks. I personally designed a multiple fixed-position shooter mechanism with an interconnected pneumatic positioning system, as well as the transmission system for the robot. 
             </p>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center m-2">
               <Image
                 src="/images/Transmission Render 3.JPG"
                 alt="Transmission Gearbox"
-                width={300}
-                height={225}
+                width={260}
+                height={195}
                 className="rounded-lg shadow-lg"
               />
-              <p className="text-lg text-gray-700 dark:text-gray-300 mt-2">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mt-2 ml-2">
                 The single speed transmission gearbox I built for the 2020 robot.
               </p>
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mt-4">
               <Image
                 src="/images/Full Robot Render 4.JPG"
                 alt="Full Robot Render"

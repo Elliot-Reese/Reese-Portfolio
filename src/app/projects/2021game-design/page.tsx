@@ -20,8 +20,8 @@ export default function Home() {
               <Image
                 src="/images/2168-2021 Game Design Field Iso.JPG"
                 alt="Game Field"
-                width={180}
-                height={300}
+                width={300}
+                height={225}
                 className="rounded-lg shadow-lg"
               />
             </div>

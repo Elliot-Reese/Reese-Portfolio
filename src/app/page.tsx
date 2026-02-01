@@ -65,7 +65,7 @@ export default function Home() {
                   <CardContent className="p-4">
                     <h3 className="text-xl font-medium text-gray-900 dark:text-white">IPG Hardware Engineering Internship</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
-                      Aided in the expansion of automated assembly capacity for laser diode packages. 
+                      Aided in the expansion of automated assembly capacity for laser diode packages. Learned about precise, station-based automation. 
                     </p>
                   </CardContent>
                 </Card>
@@ -123,9 +123,9 @@ export default function Home() {
               <Link href="/projects/7th-cadathon" className="block">
                 <Card className="hover:shadow-lg bg-neutral-200 hover:bg-stone-300">
                   <CardContent className="p-4">
-                    <h3 className="text-xl font-medium text-gray-900 dark:text-white">7th Bi-Annual F4 Cadathon</h3>
+                    <h3 className="text-xl font-medium text-gray-900 dark:text-white">F4 Cadathons</h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
-                      Entered into a 3 day challenge to fully design an FRC-style robot for a mock game with 2 other people.
+                      Competed in several 3 day challenges to fully design an FRC-style robot for a mock game with 2 other people.
                     </p>
                   </CardContent>
                 </Card>

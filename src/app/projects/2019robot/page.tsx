@@ -50,7 +50,6 @@ export default function Home() {
               className="rounded-lg shadow-lg"
             />
           </div>
-          <div className="flex items-center justify-center"></div>
           <div className="flex items-center justify-center">
             <p className="text-lg text-gray-700 dark:text-gray-300">
               This project was where I started developing an engineering mindset, as well as began learning Solidworks and the progression of the design process from prototyping to coordinating with machine shops and assembly.
