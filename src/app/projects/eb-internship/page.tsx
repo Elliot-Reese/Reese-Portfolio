@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center mt-4 mb-4">
               <Image
-                src="/images/Quad-pack.webp"
+                src="/images/Quad-Pack.webp"
                 alt="Common Missile Compartment"
                 width={300}
                 height={300}

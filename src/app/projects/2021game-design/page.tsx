@@ -16,7 +16,15 @@ export default function Home() {
               to potentially be used as inspiration for future challenges. I was the lead designer for my team, and focused on assessing the viability of proposed element.
             </p>
             </div>
-            <div></div>
+            <div className="flex items-center justify-center mt-4 mb-4">
+              <Image
+                src="/images/2168-2021 Game Design Field Iso.JPG"
+                alt="Game Field"
+                width={180}
+                height={300}
+                className="rounded-lg shadow-lg"
+              />
+            </div>
             <div className="flex items-center justify-center mt-4 mb-4">
               <Image
                 src="/images/GameDesignBanner.png"

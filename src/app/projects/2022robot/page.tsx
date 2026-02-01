@@ -26,9 +26,14 @@ export default function Home() {
               className="rounded-lg shadow-lg"
             />
           </div>
-          <div>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mt-6">
-            </p>
+          <div className="flex items-center justify-center mt-2 mb-2">
+            <Image
+              src="/images/Full Robot 3.JPG"
+              alt="FRC 2168 2022 Robot"
+              width={250}
+              height={175}
+              className="rounded-lg shadow-lg"
+            />
           </div>
           <div>
             <p className="text-lg text-gray-700 dark:text-gray-300 mt-6">

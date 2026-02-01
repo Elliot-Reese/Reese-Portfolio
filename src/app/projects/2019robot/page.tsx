@@ -23,7 +23,8 @@ export default function Home() {
           </div>
           <div className="flex items-center justify-center">
             <p className="text-lg text-gray-700 dark:text-gray-300 mt-6">
-              This was my first year designing robotic mechanisms. I worked on an adaptable intake mechanism that could manipulate one of that year's game pieces, a large disk, up off the floor and onto a secondary manipulator. I was a part of the rapid prototyping effort, then was the sole designer that brought the prototyped design to a completed state in the condensed timeframe of 1.5 weeks.
+              This was my first year designing robotic mechanisms. I worked on an adaptable intake mechanism that could manipulate one of that year's game pieces, a large disk, up off the floor and onto a secondary manipulator. 
+              I was a part of the rapid prototyping effort, then was the sole designer that brought the prototyped design to a completed state in the condensed timeframe of 1.5 weeks.
             </p>
           </div>
           <div className="flex items-center justify-center">
@@ -37,6 +38,15 @@ export default function Home() {
               alt="Hatch Panel Game Piece"
               width={200}
               height={150}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/Robot Assembly Render 2.JPG"
+              alt="Full 2019 Robot"
+              width={300}
+              height={225}
               className="rounded-lg shadow-lg"
             />
           </div>
