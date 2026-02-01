@@ -7,15 +7,16 @@ import { Github, Linkedin } from "lucide-react";
 import { ContactButtons } from "@/app/components/ContactButtons";
 import { NavHeader } from "@/app/components/NavHeader";
 import { Analytics } from "@vercel/analytics/react"
+import { Navbar } from "./components/Navbar";
 
 
 export default function Home() {  
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 px-40 sm:px-20 lg:px-40">
       < NavHeader />
-
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div id= "about" className="grid md:grid-cols-2 gap-8 bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md p-8">
+        <div id= "about" className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-200 dark:bg-gray-800 rounded-lg shadow-md p-8">
           {/* Left column - Profile Picture and Titles */}
           <div className="flex flex-col justify-center items-center md:items-start space-y-4">
             <div className="relative w-48 h-48 rounded-full overflow-hidden">
